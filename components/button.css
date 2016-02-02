@@ -1,0 +1,19 @@
+.btn-medium {
+	color: rgb(192, 192, 192);
+	background-color: white;
+	border-radius: 20px;
+	border: 1px solid rgb(192, 192, 192);
+	width: 50px;
+	padding: 10px;
+	text-decoration:none;
+
+}
+
+.btn-treehouse {
+	color: white;
+	background-color: rgb(106, 213, 139);
+	border-radius: 5px;
+	width: 50px;
+	padding: 10px;
+	text-decoration:none;
+}

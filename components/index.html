@@ -3,15 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Components</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="../normalize.css">
 	<style type="text/css">
 		@import url(avatar.css);
 		@import url(button.css);
 		@import url(badge.css);
+		@import url(banner.css);
+		@import url(card.css);
+		@import url(list-item.css);
 	</style>
 </head>
 <body>
 
 <!-- AVATAR -->
+<h4>AVATAR</h4>
 <div>
 	<img src="img/lotus.jpg" alt="user" class="avatar">
 	<img src="img/lotus.jpg" alt="user" class="avatar-large">
@@ -22,6 +30,7 @@
 <br>
 
 <!-- BOUTON -->
+<h4>BOUTON</h4>
 <div>
 	<a href="#" class="btn-medium">Write a story</a>
 	<a href="#" class="btn-treehouse">Start now</a>
@@ -30,15 +39,99 @@
 <br>
 
 <!-- BADGE -->
+<h4>BADGE</h4>
 <div class="badge-container">
   <img src="img/lotus.jpg" alt="user" class="avatar">
   <div class="badge badge-red">M</div>
 </div>
 
 <!-- ICON BADGE -->
+<h4>ICON BADGE</h4>
 <div class="badge-container">
   <i class="fa fa-envelope-o"></i>
   <div class="badge badge-blue">3</div>
+</div>
+
+<!-- BANNER -->
+<h4>BANNER</h4>
+<div class="banner"> 
+	    <h1>Some Stuff</h1>
+	    <p>Very cool stuff, useful and smart</p>
+	    <a class="btn btn-primary btn-lg">GET IT</a>
+</div>
+
+<br> <br> <br> <br> 
+
+<!-- CARD -->
+<h4>CARD</h4>
+<div class="card">
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <h2>Some stuff</h2>
+    <p>Very cool stuff, useful and smart</p>
+  </div>
+  <img class="card-user avatar" src="img/lotus.jpg">
+  <a class="card-link" href="#" ></a>
+</div>
+
+<!-- COMBINED WITH BOOTSTRAP GRID -->
+<h4>COMBINED WITH BOOTSTRAP GRID</h4>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      	<div class="card">
+		  <div class="card-category">Popular</div>
+		  <div class="card-description">
+		    <h2>Some stuff</h2>
+		    <p>Very cool stuff, useful and smart</p>
+		  </div>
+		  <img class="card-user avatar" src="img/lotus.jpg">
+		  <a class="card-link" href="#" ></a>
+		</div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      	<div class="card">
+		  <div class="card-category">Popular</div>
+		  <div class="card-description">
+		    <h2>Some stuff</h2>
+		    <p>Very cool stuff, useful and smart</p>
+		  </div>
+		  <img class="card-user avatar" src="img/lotus.jpg">
+		  <a class="card-link" href="#" ></a>
+		</div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      	<div class="card">
+		  <div class="card-category">Popular</div>
+		  <div class="card-description">
+		    <h2>Some stuff</h2>
+		    <p>Very cool stuff, useful and smart</p>
+		  </div>
+		  <img class="card-user avatar" src="img/lotus.jpg">
+		  <a class="card-link" href="#" ></a>
+		</div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- LIST ITEM - BASICS PRODUCT -->
+<h4>LIST ITEM - BASICS PRODUCT</h4>
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
+  </div>
+  <div class='product-body'>
+    <h3>Kudoz</h3>
+    <p>Les meilleures offres d'emploi cadre sur mobile</p>
+  </div>
+  <ul class="list-inline product-controls">
+    <li><a href=""><i class="fa fa-heart"></i></a></li>
+    <li><a href=""><i class="fa fa-share"></i></a></li>
+    <li><a href=""><i class="fa fa-star"></i></a></li>
+  </ul>
 </div>
 
 </body>

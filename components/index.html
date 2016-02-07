@@ -14,12 +14,13 @@
 		@import url(banner.css);
 		@import url(card.css);
 		@import url(list-item.css);
+		@import url(tabs.css);
 	</style>
 </head>
 <body>
 
 <!-- AVATAR -->
-<h4>AVATAR</h4>
+<h4 style="color:red;">==>AVATAR</h4><br>
 <div>
 	<img src="img/lotus.jpg" alt="user" class="avatar">
 	<img src="img/lotus.jpg" alt="user" class="avatar-large">
@@ -30,7 +31,7 @@
 <br>
 
 <!-- BOUTON -->
-<h4>BOUTON</h4>
+<h4 style="color:red;">==>BOUTON</h4><br>
 <div>
 	<a href="#" class="btn-medium">Write a story</a>
 	<a href="#" class="btn-treehouse">Start now</a>
@@ -39,21 +40,21 @@
 <br>
 
 <!-- BADGE -->
-<h4>BADGE</h4>
+<h4 style="color:red;">==>BADGE</h4><br>
 <div class="badge-container">
   <img src="img/lotus.jpg" alt="user" class="avatar">
   <div class="badge badge-red">M</div>
 </div>
 
 <!-- ICON BADGE -->
-<h4>ICON BADGE</h4>
+<h4 style="color:red;">==>ICON BADGE</h4><br>
 <div class="badge-container">
   <i class="fa fa-envelope-o"></i>
   <div class="badge badge-blue">3</div>
 </div>
 
 <!-- BANNER -->
-<h4>BANNER</h4>
+<h4 style="color:red;">==>BANNER</h4><br>
 <div class="banner"> 
 	    <h1>Some Stuff</h1>
 	    <p>Very cool stuff, useful and smart</p>
@@ -63,7 +64,7 @@
 <br> <br> <br> <br> 
 
 <!-- CARD -->
-<h4>CARD</h4>
+<h4 style="color:red;">==>CARD</h4><br>
 <div class="card">
   <div class="card-category">Popular</div>
   <div class="card-description">
@@ -75,7 +76,7 @@
 </div>
 
 <!-- COMBINED WITH BOOTSTRAP GRID -->
-<h4>COMBINED WITH BOOTSTRAP GRID</h4>
+<h4 style="color:red;">==>COMBINED WITH BOOTSTRAP GRID</h4><br>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-4">
@@ -117,7 +118,7 @@
 <br>
 
 <!-- LIST ITEM - BASICS PRODUCT -->
-<h4>LIST ITEM - BASICS PRODUCT</h4>
+<h4 style="color:red;">==>LIST ITEM - BASICS PRODUCT</h4><br>
 <div class="product">
   <div class='product-upvote'>
     <div class="product-arrow"></div>
@@ -128,11 +129,120 @@
     <p>Les meilleures offres d'emploi cadre sur mobile</p>
   </div>
   <ul class="list-inline product-controls">
+    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+    <li><a href="#"><i class="fa fa-share"></i></a></li>
+    <li><a href="#"><i class="fa fa-star"></i></a></li>
+  </ul>
+</div>
+
+
+<!-- AVEC UNE IMAGE -->
+<h4 style="color:red;">==>AVEC UNE IMAGE</h4><br>
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
+  </div>
+  <img src="img/lotus.jpg" alt="lotus" class="product-image">
+  <div class='product-body'>
+    <h3>Kudoz</h3>
+    <p>Les meilleures offres d'emploi cadre sur mobile</p>
+  </div>
+  <ul class="list-inline product-controls">
     <li><a href=""><i class="fa fa-heart"></i></a></li>
     <li><a href=""><i class="fa fa-share"></i></a></li>
     <li><a href=""><i class="fa fa-star"></i></a></li>
   </ul>
 </div>
+
+<br>
+
+<!-- TABS -->
+<h4 style="color:red;">==>TABS</h4><br>
+<div class="tabs">
+  <a class="tab active" href="#">
+    <h3>350</h3>
+    <p>Followers</p>
+  </a>
+  <a class="tab" href="#">
+    <h3>456</h3>
+    <p>Following</p>
+  </a>
+  <a class="tab" href="#">
+    <h3>189</h3>
+    <p>Upvoted</p>
+  </a>
+  <a class="tab" href="#">
+    <h3>13</h3>
+    <p>Submitted</p>
+  </a>
+</div>
+
+<br>
+
+<!-- NAVBAR -->
+<h4 style="color:red;">==>NAVBAR</h4><br>
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="img/lotus.jpg"/>
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Search form -->
+    <form action="" class="navbar-wagon-search">
+      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
+      <button type="submit" class="navbar-wagon-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <!-- Text link -->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <!-- Text link -->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+
+    <!-- Notification link-->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="badge badge-blue">3</div>
+      </div>
+    </a>
+
+    <!-- Profile picture and dropdown -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Button (call-to-action) -->
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
 
 </body>
 </html>

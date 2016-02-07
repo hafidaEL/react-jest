@@ -1,0 +1,40 @@
+.product-arrow {
+  transition: all 0.15s ease;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid transparent;
+  border-bottom: 9px solid black;
+  border-radius: 2px;
+  margin: auto;
+}
+
+/*Positionner les éléments dans div product*/ 
+.product {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+  	border-radius: 3px;
+  	transition: all 0.15s ease;	
+
+}
+
+/* Hover sur la div product*/
+.product:hover {
+  background: #f7f7fa;
+}
+
+.product-body {
+	padding: 20px;
+
+}
+
+.fa {
+	color: rgb(230, 230, 230);
+}
+
+.product-image {
+	margin-left: 20px;
+	border-radius: 13px;
+}

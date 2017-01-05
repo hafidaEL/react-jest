@@ -1,0 +1,25 @@
+exports[`test rendu correct du composant Link  1`] = `
+<div>
+  le lien : 
+  <a
+    className="normal"
+    href="http://www.facebook.com"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    Facebook
+  </a>
+</div>
+`;
+
+exports[`test rendu sans prop page  1`] = `
+<div>
+  le lien : 
+  <a
+    className="normal"
+    href="#"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    Facebook
+  </a>
+</div>
+`;

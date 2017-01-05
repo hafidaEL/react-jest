@@ -79,3 +79,11 @@ input {
   padding: 5rem 2rem;
   text-align: center;
 }
+
+.normal {
+  background-color: yellow
+}
+
+.hover {
+  background-color: red
+}

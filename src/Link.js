@@ -1,5 +1,6 @@
-// Link.react.js
 import React from 'react';
+import './index.css';
+
 
 const STATUS = {
   NORMAL: 'normal',
@@ -29,14 +30,20 @@ export default class Link extends React.Component {
 
   render() {
     return (
-      <a
-        className={this.state.class}
-        href={this.props.page || '#'}
-        onMouseEnter={this._onMouseEnter}
-        onMouseLeave={this._onMouseLeave}>
-        {this.props.children}
-      </a>
+    <div> 
+        le lien : <a
+            className={this.state.class}
+            href={this.props.page || '#'}
+            onMouseEnter={this._onMouseEnter}
+            onMouseLeave={this._onMouseLeave}>
+            {this.props.children}
+        </a> 
+      </div>
     );
   }
 
+}
+
+Link.propTypes = {
+    page : React.PropTypes.string
 }

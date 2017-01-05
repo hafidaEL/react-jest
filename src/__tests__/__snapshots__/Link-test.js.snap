@@ -1,3 +1,42 @@
+exports[`test changes the class when hovered 1`] = `
+<div>
+  le lien : 
+  <a
+    className="normal"
+    href="http://www.facebook.com"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    Facebook
+  </a>
+</div>
+`;
+
+exports[`test properly escapes quotes 1`] = `
+<div>
+  le lien : 
+  <a
+    className="normal"
+    href="#"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    \"Facebook\" \\\'is \\ \'awesome\'
+  </a>
+</div>
+`;
+
+exports[`test renders as an anchor when no page is set 1`] = `
+<div>
+  le lien : 
+  <a
+    className="normal"
+    href="#"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    Facebook
+  </a>
+</div>
+`;
+
 exports[`test rendu correct du composant Link  1`] = `
 <div>
   le lien : 

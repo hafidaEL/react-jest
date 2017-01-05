@@ -20,8 +20,21 @@ it('rendu sans prop page ', () => {
 
 
 
-/*
-test('Le lien change de classe au hover', () => {
+it('renders as an anchor when no page is set', () => {
+  const tree = renderer.create(
+    <Link>Facebook</Link>
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('properly escapes quotes', () => {
+  const tree = renderer.create(
+    <Link>{'"Facebook" \\\'is \\ \'awesome\''}</Link>
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('changes the class when hovered', () => {
   const component = renderer.create(
     <Link page="http://www.facebook.com">Facebook</Link>
   );
@@ -39,6 +52,8 @@ test('Le lien change de classe au hover', () => {
   // re-rendering
   tree = component.toJSON();
   expect(tree).toMatchSnapshot();
-}); */
+});
+
+
 
 

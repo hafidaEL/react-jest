@@ -1,0 +1,29 @@
+.badge-container {
+	position: relative;
+	width: 30px;
+  	color: grey;
+  	font-size: 40px;
+}
+
+.badge {
+	position: absolute;
+	top: -10%;
+	left: 95%;
+	border-radius: 50%;
+	color: white;
+	width: 25px;
+	height: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 25px;
+}
+
+.badge-red {
+	background-color: red;
+}
+
+.badge-blue {
+	background-color: #469AE0;
+
+}

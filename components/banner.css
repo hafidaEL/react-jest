@@ -1,0 +1,26 @@
+.banner {
+	background-image: url("img/iles.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	text-align: center;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.banner h1 {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 31px;
+	letter-spacing: 0px;
+}
+
+.banner p {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 16px;
+	letter-spacing: 0px;
+}

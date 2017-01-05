@@ -1,0 +1,39 @@
+.card {
+	position: relative;
+	background: url("img/iles.jpg") center;
+	background-size: cover;
+	height: 350px;
+	color: white;
+	
+}
+
+.card-category {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.card-description {
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+
+.card-user {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
+}
